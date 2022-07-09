@@ -1,0 +1,48 @@
+#partfolio {
+  padding: 80px 0;
+}
+.underscore {
+  height: 2px;
+  width: 64px;
+  background-color: #e72424;
+  margin: 0 auto 34px;
+}
+.partfolio__text {
+  text-align: center;
+  color: #86878b;
+  font-size: 14px;
+  margin-bottom: 68px;
+}
+.partfolio__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 350px;
+}
+.card__contant {
+}
+.card__img {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #e72424;
+  margin: 0 auto 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card__img img {
+}
+.card__title {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.card__text {
+  font-size: 14px;
+  text-align: center;
+}
