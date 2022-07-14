@@ -1,4 +1,4 @@
-#partfolio {
+#awesome {
   padding: 80px 0;
 }
 .underscore {
@@ -7,17 +7,17 @@
   background-color: #e72424;
   margin: 0 auto 34px;
 }
-.partfolio__text {
+.awesome__text {
   margin-bottom: 68px;
 }
-.partfolio__text p {
+.awesome__text p {
   font-family: 'Open Sans';
   font-weight: 400;
   color: #86878b;
   font-size: 14px;
   text-align: center;
 }
-.partfolio__wrap {
+.awesome__wrap {
   display: flex;
   justify-content: space-between;
 }
@@ -45,6 +45,7 @@
   margin-bottom: 16px;
   font-family: 'Open Sans';
   font-weight: 700;
+  color: #333333;
 }
 
 .card__text p {
