@@ -51,3 +51,6 @@
   background: #ffffff;
   padding: 9px 0 12px 0;
 }
+.pricing-list__items:last-child {
+  margin-bottom: 0;
+}
