@@ -40,6 +40,21 @@
   padding: 11px 26px;
   border: 1px solid #fff;
   text-align: center;
+
+  background-image: linear-gradient(
+    to left,
+    transparent,
+    transparent 50%,
+    #e72424 50%,
+    #e72424
+  );
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all 0.4s ease-in;
+}
+.btn-download:hover {
+  background-position: 0 0;
+  border: 1px solid #e72424;
 }
 .btn-download span {
   font-family: 'Open Sans';

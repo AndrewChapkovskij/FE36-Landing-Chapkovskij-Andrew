@@ -10,6 +10,10 @@
 }
 .customers-item__text {
   margin-bottom: 8px;
+  transition: 0.1s;
+}
+.customers-item__text:hover {
+  transform: translateY(-15px);
 }
 .customers-item__text::after {
   content: '';
@@ -38,6 +42,10 @@
 }
 .customers-item__image {
 }
+.customers-item__image img:hover {
+  cursor: grab;
+  transform: scale(1.2, 1.2);
+}
 .customers-item__image img {
   display: block;
   width: 70px;
@@ -45,6 +53,7 @@
   object-fit: cover;
   object-position: center;
   border-radius: 50%;
+  transition: 1s;
 }
 .customers-item__user {
   display: flex;

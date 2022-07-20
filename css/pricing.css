@@ -17,6 +17,10 @@
   line-height: 27px;
   color: #ffffff;
   padding: 9px 0 14px 0;
+  transition: 0.1s;
+}
+.pricing-list__title:hover {
+  transform: translateX(-15px);
 }
 .pricing-list__price {
   background-color: #333333;
@@ -28,6 +32,10 @@
   line-height: 41px;
   color: #ffffff;
   padding: 27px 0 32px 0;
+  transition: 0.1s;
+}
+.pricing-list__price:hover {
+  transform: translateX(15px);
 }
 .pricing-list__text {
   background-color: #333333;
@@ -39,6 +47,10 @@
   line-height: 19px;
   color: rgba(255, 255, 255, 0.5);
   padding: 18px 0 13px 0;
+  transition: 0.1s;
+}
+.pricing-list__text:hover {
+  transform: translateX(-15px);
 }
 .pricing-list__items {
   margin-bottom: 4px;
@@ -50,7 +62,14 @@
   line-height: 19px;
   background: #ffffff;
   padding: 9px 0 12px 0;
+  transition: 0.1s;
 }
 .pricing-list__items:last-child {
   margin-bottom: 0;
+}
+.pricing-list__items:nth-child(odd):hover {
+  transform: translateX(-15px);
+}
+.pricing-list__items:nth-child(even):hover {
+  transform: translateX(15px);
 }

@@ -4,6 +4,12 @@
 .card {
   width: 350px;
   margin: 0 15px;
+  transition: 0.5s;
+}
+.card:hover {
+  transform: translateY(-15px);
+  background-color: rgba(0, 0, 0, 0.02);
+  cursor: grab;
 }
 .card__contant {
 }
