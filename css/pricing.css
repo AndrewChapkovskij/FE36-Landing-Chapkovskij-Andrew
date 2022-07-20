@@ -1,0 +1,53 @@
+#pricing {
+  padding: 80px 0;
+  background-color: #f5f5f5;
+}
+.pricing-list {
+  width: 340px;
+  margin: 0 15px;
+  text-align: center;
+}
+.pricing-list__title {
+  background-color: #333333;
+  margin-bottom: 2px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  padding: 9px 0 14px 0;
+}
+.pricing-list__price {
+  background-color: #333333;
+  margin-bottom: 2px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 41px;
+  color: #ffffff;
+  padding: 27px 0 32px 0;
+}
+.pricing-list__text {
+  background-color: #333333;
+  margin-bottom: 4px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 18px 0 13px 0;
+}
+.pricing-list__items {
+  margin-bottom: 4px;
+  color: #86878b;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  background: #ffffff;
+  padding: 9px 0 12px 0;
+}

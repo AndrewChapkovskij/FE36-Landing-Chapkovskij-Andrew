@@ -7,22 +7,9 @@
   background-color: #e72424;
   margin: 0 auto 34px;
 }
-.awesome__text {
-  margin-bottom: 68px;
-}
-.awesome__text p {
-  font-family: 'Open Sans';
-  font-weight: 400;
-  color: #86878b;
-  font-size: 14px;
-  text-align: center;
-}
-.awesome__wrap {
-  display: flex;
-  justify-content: space-between;
-}
 .card {
   width: 350px;
+  margin: 0 15px;
 }
 .card__contant {
 }
