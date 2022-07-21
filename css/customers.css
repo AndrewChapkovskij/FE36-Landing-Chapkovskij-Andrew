@@ -9,21 +9,26 @@
   margin: 0 15px;
 }
 .customers-item__text {
-  margin-bottom: 8px;
+  background-color: #e2e2e2;
+  border-radius: 7px;
+  padding: 9px 22px 6px 23px;
+  margin-bottom: 22px;
   transition: 0.1s;
+  position: relative;
 }
 .customers-item__text:hover {
   transform: translateY(-15px);
 }
 .customers-item__text::after {
   content: '';
-  display: block;
+  position: absolute;
+  top: 100%;
+  left: 16%;
   width: 0;
   height: 0;
   border-top: 14px solid #e2e2e2;
   border-right: 14px solid transparent;
   border-left: 14px solid transparent;
-  margin-left: 45px;
 }
 .customers-item__text p {
   font-family: 'Open Sans';
@@ -32,9 +37,6 @@
   line-height: 19px;
   font-size: 14px;
   text-align: center;
-  background-color: #e2e2e2;
-  border-radius: 7px;
-  padding: 9px 22px 6px 23px;
 }
 .customers-item__owner {
   display: flex;
