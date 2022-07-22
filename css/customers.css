@@ -2,13 +2,17 @@
   padding: 80px 0 120px 0;
 }
 .customers__wrap {
-  align-items: flex-end;
+  align-items: stretch;
 }
 .customers-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 298px;
   margin: 0 15px;
 }
 .customers-item__text {
+  flex-grow: 1;
   background-color: #e2e2e2;
   border-radius: 7px;
   padding: 9px 22px 6px 23px;
@@ -31,12 +35,15 @@
   border-left: 14px solid transparent;
 }
 .customers-item__text p {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  text-align: center;
   font-family: 'Open Sans';
   font-weight: 400;
   color: #86878b;
   line-height: 19px;
   font-size: 14px;
-  text-align: center;
 }
 .customers-item__owner {
   display: flex;
