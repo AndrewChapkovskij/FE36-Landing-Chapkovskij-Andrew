@@ -1,15 +1,15 @@
 #awesome {
   padding: 80px 0;
 }
-.underscore {
-  height: 2px;
-  width: 64px;
-  background-color: #e72424;
-  margin: 0 auto 34px;
-}
 .card {
   width: 350px;
   margin: 0 15px;
+  transition: 0.5s;
+}
+.card:hover {
+  transform: translateY(-15px);
+  background-color: rgba(0, 0, 0, 0.02);
+  cursor: grab;
 }
 .card__contant {
 }

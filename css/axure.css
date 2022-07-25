@@ -1,0 +1,76 @@
+#axure {
+  padding: 50px 0;
+  background-image: url(../img/background1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+#axure::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/mask.png);
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.axure__title {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 34px;
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 36px;
+}
+.axure__title::after {
+  content: '';
+  display: block;
+  width: 64px;
+  height: 2px;
+  background-color: #fff;
+  margin: 34px auto 0 auto;
+}
+.axure__text {
+  margin-bottom: 57px;
+}
+.axure__text p {
+  font-family: 'Raleway';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+.btn-download {
+  display: block;
+  width: 135px;
+  margin: auto;
+  padding: 11px 26px;
+  border: 1px solid #fff;
+  text-align: center;
+
+  background-image: linear-gradient(
+    to left,
+    transparent,
+    transparent 50%,
+    #e72424 50%,
+    #e72424
+  );
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all 0.4s ease-in;
+}
+.btn-download:hover {
+  background-position: 0 0;
+  border: 1px solid #e72424;
+}
+.btn-download span {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+}

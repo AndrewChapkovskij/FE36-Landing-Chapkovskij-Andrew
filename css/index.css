@@ -1,6 +1,8 @@
 @import url(../css/import.css);
 @import url(../css/awesome.css);
 @import url(../css/pricing.css);
+@import url(..//css/customers.css);
+@import url(..//css/axure.css);
 
 * {
   margin: 0;
@@ -18,6 +20,8 @@ html {
   max-width: 1170px;
   margin: auto;
   padding: 0 15px;
+  z-index: 1;
+  position: relative;
 }
 
 .title {
@@ -29,9 +33,18 @@ html {
   font-weight: 400;
   font-size: 36px;
 }
+.title::after {
+  content: '';
+  display: block;
+  width: 64px;
+  height: 2px;
+  background-color: #e72424;
+  margin: 34px auto 0 auto;
+}
 .wrap {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin: 0 -15px;
 }
 .text {
@@ -41,6 +54,7 @@ html {
   font-family: 'Open Sans';
   font-weight: 400;
   color: #86878b;
+  line-height: 19px;
   font-size: 14px;
   text-align: center;
 }
