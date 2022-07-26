@@ -61,3 +61,51 @@ html {
   font-size: 14px;
   text-align: center;
 }
+.fa-brands {
+  color: #cccccc;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.fa-brands:hover {
+  transform: scale(1.2, 1.2);
+}
+.fa-twitter:hover {
+  color: rgb(41, 170, 237);
+}
+.fa-facebook-f:hover {
+  color: rgb(24, 119, 242);
+}
+.fa-google-plus-g:hover {
+  color: rgb(224, 47, 47);
+}
+.fa-pinterest:hover {
+  color: rgb(230, 0, 35);
+}
+.fa-instagram:hover {
+  background: -webkit-linear-gradient(
+    45deg,
+    rgb(246, 183, 98),
+    rgb(185, 35, 110),
+    rgb(85, 70, 224)
+  );
+  background: -moz-linear-gradient(
+    45deg,
+    rgb(246, 183, 98),
+    rgb(185, 35, 110),
+    rgb(85, 70, 224)
+  );
+  background: linear-gradient(
+    45deg,
+    rgb(246, 183, 98),
+    rgb(185, 35, 110),
+    rgb(85, 70, 224)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fa-whatsapp:hover {
+  color: rgb(37, 209, 106);
+}
+.fa-youtube:hover {
+  color: rgb(255, 0, 0);
+}
