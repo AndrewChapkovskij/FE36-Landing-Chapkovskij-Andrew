@@ -44,10 +44,12 @@
   color: rgba(255, 255, 255, 0.8);
   text-align: center;
 }
+.axure__btn {
+  margin: auto;
+}
 .btn-download {
   display: block;
   width: 135px;
-  margin: auto;
   padding: 11px 26px;
   border: 1px solid #fff;
   text-align: center;
