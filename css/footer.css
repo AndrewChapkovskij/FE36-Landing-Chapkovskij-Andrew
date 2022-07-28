@@ -10,8 +10,11 @@
 }
 .footer__social-icon {
   margin: 0 15px;
+}
+.footer__social-icon a {
   font-size: 23px;
 }
+
 .copy-rights {
   margin: auto;
   max-width: 900px;

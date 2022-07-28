@@ -36,6 +36,8 @@
   margin: 0 -27px 0 0;
 }
 .social-icons__fa-brands {
-  font-size: 42px;
   margin: 0 27px;
+}
+.social-icons__fa-brands a {
+  font-size: 42px;
 }

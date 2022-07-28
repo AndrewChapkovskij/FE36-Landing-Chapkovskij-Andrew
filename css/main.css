@@ -19,9 +19,6 @@
 .main__title {
   width: 544px;
   margin: 0 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 .main__logo {
   font-family: 'Roboto';
@@ -45,24 +42,22 @@
   line-height: 19px;
   color: rgba(255, 255, 255, 0.8);
 }
-.main__btn {
-  align-self: flex-start;
-}
 .main__form {
   margin: 0 15px;
   width: 370px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border-radius: 8px;
+  overflow: hidden;
 }
 .main__form--container {
-  background-color: #fff;
-  border-radius: 8px 8px 0 0;
   flex-grow: 1;
   padding: 0px 59px 60px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: #fff;
 }
 .main__form--title {
   text-align: center;
@@ -78,8 +73,7 @@
   text-transform: uppercase;
   color: #ec7979;
 }
-.main__form--items {
-}
+
 .main__form--item {
   margin-bottom: 19px;
 }
@@ -94,7 +88,6 @@
   color: #ffffff;
   background-color: #ec7979;
   border: none;
-  border-radius: 0 0 8px 8px;
   cursor: pointer;
   text-transform: capitalize;
   transition: 0.5s;
