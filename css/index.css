@@ -65,11 +65,11 @@ html {
 }
 .fa-brands {
   color: #cccccc;
-  transition: 0.3s;
+  transition: 0.5s;
   cursor: pointer;
 }
 .fa-brands:hover {
-  transform: scale(1.2, 1.2);
+  transform: translate(20px, 20px) rotate(-25deg) scale(1.3, 1.3);
 }
 .fa-twitter:hover {
   color: rgb(41, 170, 237);
@@ -152,4 +152,29 @@ textarea {
   height: 100%;
   border-bottom: 1px solid #bdbdbd;
   line-height: 30px;
+}
+.btn-download {
+  padding: 11px 26px;
+  border: 1px solid #fff;
+  background-image: linear-gradient(
+    to left,
+    transparent,
+    transparent 50%,
+    #e72424 50%,
+    #e72424
+  );
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all 0.4s ease-in;
+}
+.btn-download:hover {
+  background-position: 0 0;
+  border: 1px solid #e72424;
+}
+.btn-download span {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
 }
