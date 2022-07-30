@@ -44,33 +44,15 @@
   color: rgba(255, 255, 255, 0.8);
   text-align: center;
 }
-.btn-download {
-  display: block;
-  width: 135px;
+.axure__btn {
   margin: auto;
-  padding: 11px 26px;
-  border: 1px solid #fff;
-  text-align: center;
-
-  background-image: linear-gradient(
-    to left,
-    transparent,
-    transparent 50%,
-    #e72424 50%,
-    #e72424
-  );
-  background-position: 100% 0;
-  background-size: 200% 100%;
-  transition: all 0.4s ease-in;
 }
-.btn-download:hover {
-  background-position: 0 0;
-  border: 1px solid #e72424;
-}
-.btn-download span {
-  font-family: 'Open Sans';
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
-  color: #fff;
+@media (max-width: 768px) {
+  .axure__title {
+    font-size: 27px;
+  }
+  .axure__content {
+    display: flex;
+    flex-direction: column;
+  }
 }

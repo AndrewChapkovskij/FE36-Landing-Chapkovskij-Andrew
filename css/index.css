@@ -6,6 +6,9 @@
 @import url(../css/header.css);
 @import url(../css/social.css);
 @import url(../css/footer.css);
+@import url(../css/main.css);
+@import url(../css/contact.css);
+@import url(..//css/tabs.css);
 
 * {
   margin: 0;
@@ -47,7 +50,6 @@ html {
 .wrap {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   margin: 0 -15px;
 }
 .text {
@@ -63,7 +65,7 @@ html {
 }
 .fa-brands {
   color: #cccccc;
-  transition: 0.3s;
+  transition: 0.5s;
   cursor: pointer;
 }
 .fa-brands:hover {
@@ -108,4 +110,99 @@ html {
 }
 .fa-youtube:hover {
   color: rgb(255, 0, 0);
+}
+h1 {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 39px;
+}
+h1::after {
+  content: '';
+  display: block;
+  width: 64px;
+  height: 2px;
+  background-color: #fff;
+  margin: 32px auto 0 0;
+}
+input {
+  border: none;
+  outline: none;
+  width: 100%;
+  line-height: 30px;
+  border-bottom: 1px solid #bdbdbd;
+}
+label {
+  display: block;
+  text-transform: capitalize;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #bdbdbd;
+}
+textarea {
+  resize: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #bdbdbd;
+  line-height: 30px;
+}
+.btn-download a {
+  display: block;
+  padding: 11px 26px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.btn-download {
+  width: 177px;
+  border: 1px solid #fff;
+  background-image: linear-gradient(
+    to left,
+    transparent,
+    transparent 50%,
+    #e72424 50%,
+    #e72424
+  );
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all 0.4s ease-in;
+}
+.btn-download:hover {
+  background-position: 0 0;
+  border: 1px solid #e72424;
+}
+.btn-download span {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+}
+@media (max-width: 992px) {
+  h1 {
+    text-align: center;
+  }
+  h1::after {
+    margin: 32px auto 0 auto;
+  }
+}
+@media (max-width: 768px) {
+  .btn-download {
+    width: auto;
+  }
+  .wrap {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 29px;
+  }
+  .title {
+    font-size: 27px;
+  }
 }

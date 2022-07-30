@@ -1,0 +1,59 @@
+#contact {
+  padding: 80px 0 44px 0;
+}
+.contact__form {
+}
+.contact__form-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+.contact__form--left {
+  width: 40%;
+}
+.contact__form-item {
+  margin-bottom: 30px;
+}
+.contact__form-item:last-child {
+  margin-bottom: 0;
+}
+.contact__form--right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__form--btn {
+  border: none;
+  display: block;
+  margin: auto;
+  background: #ec7979;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  padding: 11px 32px;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact__form--btn:hover {
+  background-color: #e72424;
+}
+@media (max-width: 768px) {
+  #contact {
+    padding: 60px 0 44px 0;
+  }
+  .contact__form-container {
+    flex-direction: column;
+  }
+  .contact__form--left {
+    width: auto;
+    margin-bottom: 50px;
+  }
+  .contact__form--right {
+    width: auto;
+    height: 120px;
+  }
+}

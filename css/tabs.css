@@ -1,0 +1,130 @@
+#tabs {
+  padding: 125px 0;
+}
+.tabs__wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.tabs__buttons {
+  margin: 0 15px;
+}
+.tabs__button:last-child {
+  margin-bottom: 0;
+}
+
+.tabs__button {
+  margin-bottom: 10px;
+  padding: 45px 35px;
+  border: none;
+  background-color: #333333;
+  border-radius: 4px;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+.tabs__content {
+  width: 572px;
+  flex-direction: column;
+  margin: 0 15px;
+  display: none;
+}
+.tabs__title {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 58px;
+}
+.tabs__text {
+  margin-bottom: 30px;
+}
+.tabs__text p {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.tabs__text p:last-child {
+  margin-bottom: 0;
+}
+.tabs__btn {
+  background-color: #ec7979;
+  align-self: flex-start;
+  padding: 11px 24px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.tabs__btn:hover {
+  background-color: #e72424;
+}
+.tabs__btn a {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.tabs__image {
+  margin: 0 15px;
+}
+.tabs__image img {
+  max-width: 320px;
+  max-height: 253px;
+  object-fit: cover;
+  object-position: center;
+}
+.tabs__content.active {
+  display: flex;
+}
+.tabs__buttons .active {
+  background-color: #e72424;
+}
+@media (max-width: 1200px) {
+  .tabs__image {
+    display: none;
+  }
+  .tabs__wrap {
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 768px) {
+  #tabs {
+    padding: 60px 0;
+  }
+  .tabs__buttons {
+    display: flex;
+    width: 100%;
+    margin: 0 0 30px 0;
+  }
+  .tabs__button {
+    width: 100%;
+    margin: 0 15px;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .tabs__title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .tabs__btn {
+    align-self: center;
+  }
+
+  .tabs__content {
+    width: auto;
+  }
+}

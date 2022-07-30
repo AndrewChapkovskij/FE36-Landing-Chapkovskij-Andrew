@@ -10,8 +10,11 @@
 }
 .footer__social-icon {
   margin: 0 15px;
+}
+.footer__social-icon a {
   font-size: 23px;
 }
+
 .copy-rights {
   margin: auto;
   max-width: 900px;
@@ -24,4 +27,13 @@
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
   vertical-align: middle;
+}
+@media (max-width: 768px) {
+  .footer__social-icon {
+    margin: 0;
+  }
+  .footer__social-icons {
+    justify-content: space-between;
+    margin: 0 0 18px 0;
+  }
 }

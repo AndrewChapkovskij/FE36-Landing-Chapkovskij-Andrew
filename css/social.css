@@ -6,8 +6,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 -15px;
 }
 .social-information {
+  width: 365px;
+  margin: 0 15px;
 }
 .social__title h2 {
   font-family: 'Open Sans';
@@ -25,17 +28,44 @@
   font-size: 14px;
   line-height: 19px;
   color: #86878b;
-  width: 365px;
 }
 .social-icons {
   flex-grow: 1;
+  margin: 0 15px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin: 0 -27px 0 0;
 }
-.social-icons__fa-brands {
+.social-icons__fa-brands a {
   font-size: 42px;
-  margin: 0 27px;
+}
+
+@media (max-width: 992px) {
+  .social-media {
+    flex-direction: column;
+    margin: 0;
+  }
+  .social-information {
+    text-align: center;
+    margin: 0 0 20px 0;
+    width: auto;
+  }
+  .social-icons {
+    width: 100%;
+    margin: 0;
+  }
+  .social__text p {
+    width: auto;
+  }
+}
+@media (max-width: 768px) {
+  .social-icons__fa-brands a {
+    font-size: 32px;
+  }
+}
+@media (max-width: 576px) {
+  .social-icons__fa-brands a {
+    font-size: 27px;
+  }
 }
