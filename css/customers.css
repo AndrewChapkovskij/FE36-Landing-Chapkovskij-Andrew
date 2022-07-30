@@ -84,7 +84,7 @@
 }
 @media (max-width: 768px) {
   #customers {
-    padding: 60px 0 60px 0;
+    padding: 40px 0;
   }
   .customers-item {
     width: auto;

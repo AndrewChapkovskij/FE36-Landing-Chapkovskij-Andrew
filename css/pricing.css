@@ -71,7 +71,7 @@
 }
 @media (max-width: 768px) {
   #pricing {
-    padding: 60px 0;
+    padding: 40px 0;
   }
   .pricing-list {
     width: auto;

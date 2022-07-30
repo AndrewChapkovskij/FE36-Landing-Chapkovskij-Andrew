@@ -43,7 +43,7 @@
 }
 @media (max-width: 768px) {
   #contact {
-    padding: 60px 0 44px 0;
+    padding: 40px 0;
   }
   .contact__form-container {
     flex-direction: column;
