@@ -6,7 +6,6 @@
 .contact__form-container {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   margin-bottom: 64px;
 }
 .contact__form--left {
@@ -41,4 +40,20 @@
 }
 .contact__form--btn:hover {
   background-color: #e72424;
+}
+@media (max-width: 768px) {
+  #contact {
+    padding: 60px 0 44px 0;
+  }
+  .contact__form-container {
+    flex-direction: column;
+  }
+  .contact__form--left {
+    width: auto;
+    margin-bottom: 50px;
+  }
+  .contact__form--right {
+    width: auto;
+    height: 120px;
+  }
 }

@@ -45,8 +45,14 @@
   text-align: center;
 }
 .axure__btn {
-  display: block;
   margin: auto;
-  width: 137px;
-  text-align: center;
+}
+@media (max-width: 768px) {
+  .axure__title {
+    font-size: 27px;
+  }
+  .axure__content {
+    display: flex;
+    flex-direction: column;
+  }
 }

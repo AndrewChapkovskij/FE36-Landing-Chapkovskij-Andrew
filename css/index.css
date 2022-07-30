@@ -50,7 +50,6 @@ html {
 .wrap {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   margin: 0 -15px;
 }
 .text {
@@ -154,8 +153,14 @@ textarea {
   border-bottom: 1px solid #bdbdbd;
   line-height: 30px;
 }
-.btn-download {
+.btn-download a {
+  display: block;
   padding: 11px 26px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.btn-download {
+  width: 177px;
   border: 1px solid #fff;
   background-image: linear-gradient(
     to left,
@@ -178,4 +183,26 @@ textarea {
   font-size: 15px;
   line-height: 20px;
   color: #fff;
+}
+@media (max-width: 992px) {
+  h1 {
+    text-align: center;
+  }
+  h1::after {
+    margin: 32px auto 0 auto;
+  }
+}
+@media (max-width: 768px) {
+  .btn-download {
+    width: auto;
+  }
+  .wrap {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 29px;
+  }
+  .title {
+    font-size: 27px;
+  }
 }

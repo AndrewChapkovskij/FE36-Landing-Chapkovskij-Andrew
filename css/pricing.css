@@ -11,7 +11,6 @@
   background-color: #333333;
   margin-bottom: 2px;
   font-family: 'Open Sans';
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 27px;
@@ -26,7 +25,6 @@
   background-color: #333333;
   margin-bottom: 2px;
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 35px;
   line-height: 41px;
@@ -41,7 +39,6 @@
   background-color: #333333;
   margin-bottom: 4px;
   font-family: 'Open Sans';
-  font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 19px;
@@ -56,7 +53,6 @@
   margin-bottom: 4px;
   color: #86878b;
   font-family: 'Open Sans';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
@@ -72,4 +68,16 @@
 }
 .pricing-list__items:nth-child(even):hover {
   transform: translateX(15px);
+}
+@media (max-width: 768px) {
+  #pricing {
+    padding: 60px 0;
+  }
+  .pricing-list {
+    width: auto;
+    margin-bottom: 30px;
+  }
+  .pricing-list:last-child {
+    margin-bottom: 0;
+  }
 }
