@@ -105,8 +105,10 @@
     background-color: #000000;
   }
   .navigation__item {
-    padding: 8px 0 8px 0;
     text-align: center;
+  }
+  .navigation__item a {
+    padding: 10px 0 10px 0;
   }
   .navigation__item::after {
     display: none;
