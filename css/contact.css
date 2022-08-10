@@ -47,13 +47,21 @@
   }
   .contact__form-container {
     flex-direction: column;
+    width: 75%;
+    margin: 0 auto 64px;
   }
   .contact__form--left {
     width: auto;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
   }
   .contact__form--right {
     width: auto;
-    height: 120px;
+    height: 140px;
+  }
+}
+@media (max-width: 575px) {
+  .contact__form-container {
+    width: auto;
+    margin: 0 0 64px;
   }
 }

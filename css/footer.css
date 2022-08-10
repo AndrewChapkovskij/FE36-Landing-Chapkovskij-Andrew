@@ -33,7 +33,12 @@
     margin: 0;
   }
   .footer__social-icons {
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 0 0 18px 0;
+  }
+}
+@media (max-width: 575px) {
+  .footer__social-icons {
+    justify-content: space-between;
   }
 }

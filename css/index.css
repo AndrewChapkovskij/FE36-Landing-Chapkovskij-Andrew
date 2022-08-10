@@ -193,16 +193,21 @@ textarea {
   }
 }
 @media (max-width: 768px) {
-  .btn-download {
-    width: auto;
-  }
   .wrap {
     flex-direction: column;
   }
+
+  .title {
+    font-size: 27px;
+  }
+}
+@media (max-width: 575px) {
   h1 {
     font-size: 29px;
   }
-  .title {
-    font-size: 27px;
+}
+@media (max-width: 320px) {
+  .btn-download {
+    width: auto;
   }
 }

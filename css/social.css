@@ -54,6 +54,7 @@
   .social-icons {
     width: 100%;
     margin: 0;
+    justify-content: space-evenly;
   }
   .social__text p {
     width: auto;
@@ -64,8 +65,11 @@
     font-size: 32px;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   .social-icons__fa-brands a {
     font-size: 27px;
+  }
+  .social-icons {
+    justify-content: space-between;
   }
 }

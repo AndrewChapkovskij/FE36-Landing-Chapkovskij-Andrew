@@ -87,10 +87,19 @@
     padding: 40px 0;
   }
   .customers-item {
-    width: auto;
-    margin-bottom: 30px;
+    width: 75%;
+    margin: 0 auto 45px;
+  }
+  .customers-item:last-child {
+    margin-bottom: 0;
   }
   .customers-item__owner {
     justify-content: space-around;
+  }
+}
+@media (max-width: 575px) {
+  .customers-item {
+    width: auto;
+    margin: 0 15px 45px;
   }
 }
